@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทดสอบสร้าง html from ครั้งที่2</title>
+</head>
+<body>
+    
+ <h1><center>ทดสอบสร้าง html from ครั้งที่2</center></h1>  
+
+ <form action="Inputfrom2.html" method="get">
+    ระบุชื่อ-สกุล : <input type="text" name="Fullname" id="Fullname"> <br>
+    ระบุเพศ : <input type="radio" name="gender" value="ชาย"> ชาย
+             <input type="radio" name="gender" value="หญิง"> หญิง
+             <input type="radio" name="gender" value="อื่นๆ"> อื่นๆ
+    
+
+        <br>
+        <br>
+    ระบุอายุ : <input type="radio" name="age" value="ต่ำกว่า18"> ต่ำกว่า18
+             <input type="radio" name="age" value="19-35"> 19-35
+             <input type="radio" name="age" value="36-40"> 36-40
+             <input type="radio" name="age" value="41-60"> 41-60
+             <input type="radio" name="age" value="มากกว่า60"> มากกว่า60
+        <br>
+        <br>
+
+    งานอดิเรก :  <input type="checkbox" name="hobby" value="นอน"> นอน
+                <input type="checkbox" name="hobby" value="เกม"> เกม
+                <input type="checkbox" name="hobby" value="ช็อป"> ช็อป
+                <input type="checkbox" name="hobby" value="กีฬา"> กีฬา 
+                <input type="checkbox" name="hobby" value="อ่านหนังสือ"> อ่านหนังสือ
+                <input type="checkbox" name="hobby" value="ทีวี"> ทีวี
+                <input type="checkbox" name="hobby" value="ยูทูป"> ยูทูป
+                <input type="checkbox" name="hobby" value="อื่นๆ"> อื่นๆ 
+        <br>
+                อื่นๆ : <input type="text" name="hobby2" maxlength="25" size="10">
+        <br>
+        <br>
+
+    แนบไฟล์รูปภาพ : <input type="file" name="pic" accept="imge/*"> 
+        <br>
+    
+    
+    สังกัดคณะ : <select name="faculty" id="faculty">
+                <option value="เทคโนโลยีสารสนเทศ" selected> เทคโนโลยีสารสนเทศ </option>
+                <option value="วิทยาศาสตร์" selected> วิทยาศาสตร์ </option>
+                <option value="พยาบาลศาสตร์" selected> พยาบาลศาสตร์ </option>
+                <option value="นิติศาสตร์" selected> นิติศาสตร์ </option>
+            </select>
+        <br>
+    <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
